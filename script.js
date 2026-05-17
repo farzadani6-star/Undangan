@@ -263,6 +263,50 @@ async(e)=>{
 
 });
 
+// =========================
+// LOAD WISHES
+// =========================
+
+async function loadWishes(){
+
+  const response =
+  await fetch(
+
+  "https://script.google.com/macros/s/AKfycbwA3awn0dip6o36kAnG5jBEmRmxI1IFViJO-pkvGx6poLrKmuO9MR5y0MndrTzbLR88/exec"
+
+  );
+
+  const data =
+  await response.json();
+
+  wishList.innerHTML = "";
+
+  data.reverse().forEach(item => {
+
+    wishList.innerHTML += `
+
+      <div class="wish-card">
+
+        <h4 class="wish-name">
+          ${item.nama}
+        </h4>
+
+        <p class="wish-text">
+          ${item.ucapan}
+        </p>
+
+      </div>
+
+    `;
+
+  });
+
+}
+
+// LOAD
+
+loadWishes();
+
 
 const sparkles =
 document.querySelector(".sparkles");
