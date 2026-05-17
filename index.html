@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Undangan Pernikahan Islamic</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- BOTTOM NAVBAR -->
+
+<nav class="bottom-nav">
+
+  <a href="#lovestory" class="nav-item">
+
+    <!-- LOVE -->
+    <svg viewBox="0 0 24 24">
+
+      <path d="
+      M12 21
+      S4 14 4 9
+      A4 4 0 0 1 12 7
+      A4 4 0 0 1 20 9
+      C20 14 12 21 12 21
+      "/>
+
+    </svg>
+
+    <span>
+      Story
+    </span>
+
+  </a>
+
+  <a href="#acara" class="nav-item">
+
+    <!-- EVENT -->
+    <svg viewBox="0 0 24 24">
+
+      <path d="
+      M6 4V8
+      M18 4V8
+      M4 10H20
+      M5 6H19
+      V20H5Z
+      "/>
+
+    </svg>
+
+    <span>
+      Acara
+    </span>
+
+  </a>
+
+  <a href="#location" class="nav-item">
+
+    <!-- LOCATION -->
+    <svg viewBox="0 0 24 24">
+
+      <path d="
+      M12 22
+      S5 15 5 10
+      A7 7 0 1 1 19 10
+      C19 15 12 22 12 22
+      "/>
+
+      <circle cx="12"
+      cy="10"
+      r="2"/>
+
+    </svg>
+
+    <span>
+      Lokasi
+    </span>
+
+  </a>
+
+  <a href="#music" class="nav-item vinyl-btn">
+
+    <!-- VINYL -->
+    <div class="vinyl">
+
+      <div class="vinyl-center"></div>
+
+    </div>
+
+    <span>
+      Lagu
+    </span>
+
+  </a>
+
+  <a href="#gallery" class="nav-item">
+
+    <!-- GALLERY -->
+    <svg viewBox="0 0 24 24">
+
+      <rect x="4"
+      y="5"
+      width="16"
+      height="14"
+      rx="2"/>
+
+      <circle cx="9"
+      cy="10"
+      r="1.5"/>
+
+      <path d="
+      M20 16
+      L15 11
+      L9 17
+      L6 14
+      L4 16
+      "/>
+
+    </svg>
+
+    <span>
+      Gallery
+    </span>
+
+  </a>
+
+  <a href="#gift" class="nav-item">
+
+    <!-- GIFT -->
+    <svg viewBox="0 0 24 24">
+
+      <path d="
+      M12 22V8
+      M4 12H20
+      M5 8H19V22H5Z
+      "/>
+
+    </svg>
+
+    <span>
+      Gift
+    </span>
+
+  </a>
+
+  <a href="#rsvp" class="nav-item">
+
+    <!-- RSVP -->
+    <svg viewBox="0 0 24 24">
+
+      <path d="
+      M4 6H20V18H4Z
+      M4 7L12 13L20 7
+      "/>
+
+    </svg>
+
+    <span>
+      RSVP
+    </span>
+
+  </a>
+
+</nav>
+  <!-- IMAGE MODAL -->
+
+<div id="imageModal" class="image-modal">
+
+  <span class="close-modal">
+    ✕
+  </span>
+
+  <img id="modalImg">
+
+</div>
+  <div class="sparkles"></div>
+<!-- OPENING SCREEN -->
+
+<div id="openingScreen" class="opening-screen">
+
+  <div class="opening-overlay"></div>
+
+  <!-- ORNAMENT -->
+  <div class="moon"></div>
+
+  <div class="floating-lantern lantern1"></div>
+  <div class="floating-lantern lantern2"></div>
+
+  <div class="opening-box">
+
+    <p class="arabic">
+      بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
+    </p>
+
+    <span class="small-text">
+      INVITATION
+    </span>
+
+    <h1 class="opening-title">
+      Ahmad <span>&</span> Aisyah
+    </h1>
+
+    <p class="guest-text">
+      Kepada Yth.
+    </p>
+
+    <h3 id="guestName">
+      Tamu Undangan
+    </h3>
+
+<button id="openInvitation" class="open-btn">
+  🌙 Menuju Hari Bahagia
+</button>
+
+  </div>
+
+</div>
+
+
+<!-- OPENING -->
+<section class="opening">
+
+  <div class="opening-content">
+    
+
+
+
+    <h1 class="main-title hidden-item">
+      The Wedding Of
+    </h1>
+
+    <h2 class="couple-name hidden-item">
+      Ahmad & Aisyah
+    </h2>
+
+    <p class="subtitle hidden-item">
+      Minggu, 12 Desember 2026
+    </p>
+   <!-- COUNTDOWN -->
+
+    <div class="countdown opening-countdown hidden-item">
+
+      <div class="time-box">
+        <h3 id="days">00</h3>
+        <span>Hari</span>
+      </div>
+
+      <div class="time-box">
+        <h3 id="hours">00</h3>
+        <span>Jam</span>
+      </div>
+
+      <div class="time-box">
+        <h3 id="minutes">00</h3>
+        <span>Menit</span>
+      </div>
+
+      <div class="time-box">
+        <h3 id="seconds">00</h3>
+        <span>Detik</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- HOME -->
+<section id="home">
+
+  <div class="container">
+
+    <div class="section-title reveal-item">
+      <h2>Assalamu’alaikum</h2>
+
+      <p>
+        Dengan memohon rahmat dan ridho Allah SWT,
+        kami bermaksud menyelenggarakan acara pernikahan:
+      </p>
+    </div>
+
+    <div class="couple-wrapper">
+
+      <div class="card reveal-item">
+        <img src="pria.png">
+
+        <h3>Ahmad Fauzi</h3>
+
+        <p>Putra Pertama</p>
+
+        <span>Keluarga Bapak Ahmad</span>
+      </div>
+
+      <div class="heart reveal-item">
+        ❤
+      </div>
+
+      <div class="card reveal-item">
+        <img src="wanita.png">
+
+        <h3>Aisyah Putri</h3>
+
+        <p>Putri Pertama</p>
+
+        <span>Keluarga Bapak Abdullah</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- AYAT -->
+<section class="ayat">
+
+  <div class="container">
+
+    <div class="section-title">
+      <h2>QS Ar-Rum : 21</h2>
+    </div>
+
+    <div class="ayat-box">
+
+      <p class="arab">
+        وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ
+        مِنْ أَنْفُسِكُمْ أَزْوَاجًا
+        لِتَسْكُنُوا إِلَيْهَا
+      </p>
+
+      <p>
+        “Dan di antara tanda-tanda kekuasaan-Nya ialah
+        Dia menciptakan untukmu pasangan hidup dari jenismu sendiri.”
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- LOVE STORY -->
+
+<section id="lovestory" class="love-story">
+
+  <div class="container">
+
+    <div class="section-title reveal">
+      <h2>Love Story</h2>
+
+      <p>
+        Perjalanan singkat yang membawa kami
+        menuju hari bahagia.
+      </p>
+    </div>
+
+    <div class="story-wrapper">
+
+      <!-- STORY 1 -->
+
+      <div class="story-item reveal">
+
+        <div class="story-dot"></div>
+
+        <div class="story-card">
+
+          <img src="story1.png" class="story-img">
+
+          <span class="story-year">
+            2022
+          </span>
+
+          <h3>
+            Pertama Bertemu
+          </h3>
+
+          <p>
+            Tidak ada yang kebetulan di dunia ini.
+            Kami dipertemukan dalam sebuah
+            pertemuan sederhana.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- STORY 2 -->
+
+      <div class="story-item reveal">
+
+        <div class="story-dot"></div>
+
+        <div class="story-card">
+
+          <img src="story2.png" class="story-img">
+
+          <span class="story-year">
+            2023
+          </span>
+
+          <h3>
+            Semakin Dekat
+          </h3>
+
+          <p>
+            Seiring berjalannya waktu,
+            kami mulai mengenal satu sama lain
+            lebih dalam.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- STORY 3 -->
+
+      <div class="story-item reveal">
+
+        <div class="story-dot"></div>
+
+        <div class="story-card">
+
+          <img src="story3.png" class="story-img">
+
+          <span class="story-year">
+            2024
+          </span>
+
+          <h3>
+            Menjalin Hubungan
+          </h3>
+
+          <p>
+            Dengan penuh keyakinan,
+            kami memutuskan untuk
+            melangkah bersama.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- STORY 4 -->
+
+      <div class="story-item reveal">
+
+        <div class="story-dot"></div>
+
+        <div class="story-card">
+
+          <img src="story4.png" class="story-img">
+
+          <span class="story-year">
+            2026
+          </span>
+
+          <h3>
+            Menuju Pernikahan
+          </h3>
+
+          <p>
+            Dengan niat ibadah dan penuh rasa syukur,
+            kami siap memulai perjalanan baru
+            dalam ikatan suci pernikahan.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ACARA -->
+<section id="acara" class="event-section">
+
+  <div class="container">
+
+    <div class="section-title reveal-item">
+      <h2>Detail Acara</h2>
+    </div>
+
+    <div class="event-wrapper">
+
+      <!-- AKAD -->
+
+      <div class="event-card reveal-item">
+
+        <!-- SVG ORNAMENT -->
+        <svg class="event-ornament"
+        viewBox="0 0 200 200">
+
+          <path d="
+          M40 100
+          Q100 20 160 100
+          Q100 180 40 100
+          " />
+
+        </svg>
+
+        <div class="event-icon">
+
+          <!-- MASJID SVG -->
+          <svg viewBox="0 0 64 64">
+
+            <path d="
+            M12 52H52
+            M18 52V30
+            M32 18L46 30V52
+            M18 30L32 18
+            "
+            />
+
+          </svg>
+
+        </div>
+
+        <h3>Akad Nikah</h3>
+
+        <p>08.00 WIB</p>
+
+        <span>
+          Minggu, 12 Desember 2026
+        </span>
+
+        <!-- BUTTON -->
+
+        <button class="save-date-btn">
+
+          📅 Save The Date
+
+        </button>
+
+      </div>
+
+      <!-- RESEPSI -->
+
+      <div class="event-card reveal-item">
+
+        <svg class="event-ornament"
+        viewBox="0 0 200 200">
+
+          <path d="
+          M40 100
+          Q100 20 160 100
+          Q100 180 40 100
+          " />
+
+        </svg>
+
+        <div class="event-icon">
+
+          <svg viewBox="0 0 64 64">
+
+            <path d="
+            M12 52H52
+            M18 52V30
+            M32 18L46 30V52
+            M18 30L32 18
+            "
+            />
+
+          </svg>
+
+        </div>
+
+        <h3>Resepsi</h3>
+
+        <p>11.00 WIB</p>
+
+        <span>
+          Gedung Islamic Center
+        </span>
+
+        <button class="save-date-btn">
+
+          📅 Save The Date
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- LOCATION -->
+
+<section id="location" class="location-section">
+
+  <div class="container">
+
+    <div class="section-title reveal-item">
+
+      <h2>Lokasi Acara</h2>
+
+      <p>
+        Dengan penuh kebahagiaan,
+        kami menantikan kehadiran Anda
+        di hari istimewa kami.
+      </p>
+
+    </div>
+
+    <div class="location-card reveal-item">
+
+      <!-- SVG ORNAMENT -->
+
+      <svg class="location-ornament"
+      viewBox="0 0 200 200">
+
+        <path d="
+        M40 100
+        Q100 20 160 100
+        Q100 180 40 100
+        " />
+
+      </svg>
+
+      <!-- ICON -->
+
+      <div class="location-icon">
+
+        <svg viewBox="0 0 64 64">
+
+          <path d="
+          M32 58
+          C32 58 14 40 14 26
+          A18 18 0 1 1 50 26
+          C50 40 32 58 32 58
+          " />
+
+          <circle cx="32"
+          cy="26"
+          r="6" />
+
+        </svg>
+
+      </div>
+
+      <h3>
+        Gedung Islamic Center
+      </h3>
+
+      <p>
+        Jl. Ahmad Yani No. 88,
+        Jakarta Selatan
+      </p>
+
+      <!-- MAP -->
+
+      <div class="map-frame">
+
+        <iframe
+        src="https://www.google.com/maps?q=Monas&output=embed"
+        loading="lazy">
+        </iframe>
+
+      </div>
+
+      <!-- BUTTON -->
+
+      <a
+href="https://www.google.com/maps/dir/?api=1&destination=-6.175392,106.827153"
+target="_blank"
+class="map-btn">
+
+  🧭 Navigasi ke Lokasi
+
+</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section id="gallery" class="gallery-section">
+
+  <div class="container">
+
+    <div class="section-title reveal">
+      <h2>Gallery</h2>
+    </div>
+
+    <div class="gallery-slider reveal">
+
+
+
+      <div class="gallery-track">
+
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="4.jpg">
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+<!-- AESTHETIC GRID -->
+
+<div class="gallery-grid reveal">
+
+  <div class="gallery-item">
+
+    <img src="1.jpg">
+
+    <svg class="frame" viewBox="0 0 100 100">
+
+      <path d="M10 30 Q10 10 30 10"/>
+      <path d="M70 10 Q90 10 90 30"/>
+      <path d="M90 70 Q90 90 70 90"/>
+      <path d="M30 90 Q10 90 10 70"/>
+
+    </svg>
+
+  </div>
+
+  <div class="gallery-item">
+
+    <img src="2.jpg">
+
+    <svg class="frame" viewBox="0 0 100 100">
+
+      <path d="M10 30 Q10 10 30 10"/>
+      <path d="M70 10 Q90 10 90 30"/>
+      <path d="M90 70 Q90 90 70 90"/>
+      <path d="M30 90 Q10 90 10 70"/>
+
+    </svg>
+
+  </div>
+
+  <div class="gallery-item">
+
+    <img src="3.jpg">
+
+    <svg class="frame" viewBox="0 0 100 100">
+
+      <path d="M10 30 Q10 10 30 10"/>
+      <path d="M70 10 Q90 10 90 30"/>
+      <path d="M90 70 Q90 90 70 90"/>
+      <path d="M30 90 Q10 90 10 70"/>
+
+    </svg>
+
+  </div>
+  <div class="gallery-item">
+
+    <img src="4.jpg">
+
+    <svg class="frame" viewBox="0 0 100 100">
+
+      <path d="M10 30 Q10 10 30 10"/>
+      <path d="M70 10 Q90 10 90 30"/>
+      <path d="M90 70 Q90 90 70 90"/>
+      <path d="M30 90 Q10 90 10 70"/>
+
+    </svg>
+
+  </div>
+</div>
+</section>
+
+<!-- GIFT SECTION -->
+
+<section id="gift" class="gift-section">
+
+  <div class="container">
+
+    <div class="section-title reveal-item">
+
+      <h2>Wedding Gift</h2>
+
+      <p>
+        Doa restu Anda merupakan hadiah terindah
+        bagi kami. Namun jika memberi adalah bentuk
+        kasih sayang, kami dengan senang hati menerimanya.
+      </p>
+
+    </div>
+
+    <div class="gift-wrapper">
+
+      <!-- CARD 1 -->
+
+      <div class="gift-card reveal-item">
+
+        <div class="atm-card">
+
+          <!-- CHIP -->
+
+          <div class="atm-chip"></div>
+
+          <!-- CONTACTLESS -->
+
+          <div class="atm-wave">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+          </div>
+
+          <!-- BANK -->
+
+          <h4 class="bank-name">
+            BANK BCA
+          </h4>
+
+          <!-- NUMBER -->
+
+          <h2 class="atm-number">
+            1234 5678 9010
+          </h2>
+
+          <!-- FOOTER -->
+
+          <div class="atm-footer">
+
+            <div>
+
+              <small>
+                Card Holder
+              </small>
+
+              <p>
+                AHMAD FAUZI
+              </p>
+
+            </div>
+
+            <div>
+
+              <small>
+                Valid Thru
+              </small>
+
+              <p>
+                12/26
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- COPY -->
+
+        <button
+        class="copy-btn"
+        data-copy="1234567890">
+
+          📋 Salin Rekening
+
+        </button>
+
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="gift-card reveal-item">
+
+        <div class="atm-card">
+
+          <!-- CHIP -->
+
+          <div class="atm-chip"></div>
+
+          <!-- CONTACTLESS -->
+
+          <div class="atm-wave">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+          </div>
+
+          <!-- BANK -->
+
+          <h4 class="bank-name">
+            BANK MANDIRI
+          </h4>
+
+          <!-- NUMBER -->
+
+          <h2 class="atm-number">
+            9876 5432 1011
+          </h2>
+
+          <!-- FOOTER -->
+
+          <div class="atm-footer">
+
+            <div>
+
+              <small>
+                Card Holder
+              </small>
+
+              <p>
+                AISYAH PUTRI
+              </p>
+
+            </div>
+
+            <div>
+
+              <small>
+                Valid Thru
+              </small>
+
+              <p>
+                12/26
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- COPY -->
+
+        <button
+        class="copy-btn"
+        data-copy="9876543210">
+
+          📋 Salin Rekening
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- RSVP -->
+<section id="rsvp" class="rsvp-section">
+
+  <div class="container">
+
+    <div class="section-title reveal-item">
+
+      <h2>RSVP & Ucapan</h2>
+
+      <p>
+        Mohon konfirmasi kehadiran serta
+        kirimkan doa terbaik untuk kami.
+      </p>
+
+    </div>
+
+    <!-- FORM -->
+
+    <form id="rsvpForm"
+    class="rsvp-form reveal-item">
+
+      <!-- NAMA -->
+
+      <input
+      type="text"
+      id="nama"
+      placeholder="Nama Anda"
+      required>
+
+      <!-- KEHADIRAN -->
+
+      <select id="kehadiran">
+
+        <option value="Hadir">
+          Hadir
+        </option>
+
+        <option value="Tidak Hadir">
+          Tidak Hadir
+        </option>
+
+      </select>
+
+      <!-- UCAPAN -->
+
+      <textarea
+      id="ucapan"
+      placeholder="Tulis doa & ucapan..."
+      required>
+      </textarea>
+
+      <!-- BUTTON -->
+
+      <button type="submit">
+
+        ✨ Kirim RSVP
+
+      </button>
+
+    </form>
+
+    <!-- SUCCESS -->
+
+    <div id="successMessage"
+    class="success-message">
+
+      ✅ RSVP berhasil dikirim
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================
+     DOA & UCAPAN TAMU
+========================= -->
+
+<section id="wishes"
+class="wishes-section">
+
+  <div class="container">
+
+    <!-- TITLE -->
+
+    <div class="section-title reveal-item">
+
+      <h2>
+        Doa & Ucapan
+      </h2>
+
+      <p>
+        Terima kasih atas doa dan
+        ucapan terbaik untuk kami.
+      </p>
+
+    </div>
+
+    <!-- LIST -->
+
+    <div id="wishList"
+    class="wish-list">
+
+      <!-- AUTO DARI JS -->
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+  <h2>Ahmad & Aisyah</h2>
+
+  <p>
+    Terima kasih atas doa dan restunya
+  </p>
+
+</footer>
+
+<audio id="bgMusic" loop>
+
+  <source src="lagu.mp3" type="audio/mp3">
+
+</audio>
+<script src="script.js"></script>
+
+</body>
+</html>
