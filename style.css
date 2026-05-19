@@ -802,7 +802,7 @@ footer h2{
   }
 
   .section-title h2{
-    font-size:34px;
+    font-size:50px;
   }
   
 .section-title h2,
@@ -2542,120 +2542,59 @@ animation: glow 2.5s infinite;
 }
 
 /* =========================
-   DESKTOP VERSION
+   FORCE MOBILE LAYOUT
 ========================= */
 
-@media(min-width:1024px){
+body{
 
-  /* CONTAINER */
+  max-width:480px;
 
-  .container{
-    max-width:1200px;
+  margin:auto;
 
-    margin:auto;
+  position:relative;
+
+  overflow-x:hidden;
+
+  background:#0b1110;
+}
+
+/* DESKTOP BG */
+
+html{
+
+  background:
+  #09100f;
+}
+
+/* FIX SECTION */
+
+section,
+.opening,
+.opening-screen,
+.bottom-nav{
+
+  max-width:480px;
+
+  margin:auto;
+}
+
+/* CENTER ON PC */
+
+@media(min-width:768px){
+
+  body{
+
+    border-left:
+    1px solid rgba(255,255,255,0.06);
+
+    border-right:
+    1px solid rgba(255,255,255,0.06);
+
+    box-shadow:
+    0 0 40px rgba(0,0,0,0.35);
   }
 
-  /* SECTION */
-
-  section{
-    padding:
-    120px 40px;
-  }
-
-  /* OPENING */
-
-  .opening-content{
-    max-width:900px;
-    margin:auto;
-  }
-
-  .opening-title{
-    font-size:90px;
-  }
-
-  .couple-name{
-    font-size:80px;
-  }
-
-  .subtitle{
-    font-size:22px;
-  }
-
-  /* COUPLE */
-
-  .couple-wrapper{
-
-    display:flex;
-
-    justify-content:center;
-    align-items:center;
-
-    gap:60px;
-  }
-
-  .card{
-    width:340px;
-  }
-
-  .card img{
-    height:420px;
-  }
-
-  /* EVENT */
-
-  .event-wrapper{
-    grid-template-columns:
-    repeat(2,1fr);
-
-    gap:35px;
-  }
-
-  /* STORY */
-
-  .story-wrapper{
-    max-width:950px;
-  }
-
-  .story-card{
-    padding:26px;
-  }
-
-  .story-img{
-    height:340px;
-  }
-
-  /* GALLERY */
-
-  .gallery-grid{
-
-    grid-template-columns:
-    repeat(3,1fr);
-
-    gap:22px;
-  }
-
-  .gallery-item img{
-    height:320px;
-  }
-
-  /* LOCATION */
-
-  .location-card{
-    max-width:950px;
-  }
-
-  .map-frame iframe{
-    height:420px;
-  }
-
-  /* GIFT */
-
-  .gift-wrapper{
-    grid-template-columns:
-    repeat(2,1fr);
-
-    gap:35px;
-  }
+}
 
   /* NAVBAR */
 
@@ -2800,4 +2739,27 @@ animation: glow 2.5s infinite;
   color:#f3f3f3;
 
   font-size:15px;
+}
+
+
+/* =========================
+   TITLE SIZE FIX
+========================= */
+
+.section-title h2{
+
+  font-size:42px;
+
+  line-height:1.2;
+}
+
+/* MOBILE */
+
+@media(max-width:480px){
+
+  .section-title h2{
+
+    font-size:34px;
+  }
+
 }
