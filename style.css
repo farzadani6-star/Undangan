@@ -802,7 +802,7 @@ footer h2{
   }
 
   .section-title h2{
-    font-size:50px;
+    font-size:34px;
   }
   
 .section-title h2,
@@ -2592,37 +2592,6 @@ section,
 
     box-shadow:
     0 0 40px rgba(0,0,0,0.35);
-  }
-
-}
-
-  /* NAVBAR */
-
-  .bottom-nav{
-
-    width:auto;
-
-    padding:
-    16px 24px;
-
-    gap:28px;
-
-    bottom:22px;
-  }
-
-  .nav-item{
-
-    font-size:12px;
-  }
-
-  .nav-item svg{
-    width:24px;
-    height:24px;
-  }
-
-  .vinyl{
-    width:58px;
-    height:58px;
   }
 
 }
